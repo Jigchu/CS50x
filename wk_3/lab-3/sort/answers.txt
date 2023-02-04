@@ -1,0 +1,38 @@
+sort1 uses: Bubble Sort
+sort1 (ran50k): 8.216
+sort1 (ran10k): 0.400
+sort1 (rank5k): 0.124
+sort1 (rev50k): 6.137
+sort1 (rev10k): 0.463
+sort1 (rev5k): 0.116
+sort1 (s50k): 0.760
+sort1 (s10k): 0.087
+sort1 (s5k): 0.042
+How do you know?:
+Sort 1 has one of the lowests times with the sorted lists. When the input is sorted or almost sorted, bubble sort is able to reach extremely fast times. With sorted lists, it has a time complexity of O(n).
+
+sort2 uses: Merge Sort
+sort2 (ran50k): 0.853
+sort2 (ran10k): 0.099
+sort2 (rank5k): 0.052
+sort2 (rev50k): 0.963
+sort2 (rev10k): 0.073
+sort2 (rev5k): 0.091
+sort2 (s50k): 0.625
+sort2 (s10k): 0.067
+sort2 (s5k): 0.048
+How do you know?:
+Sort 2 has the lowest times in most categories. Since merge sort has a time complexity of θ(n log n), the shortest of the three, its sort times will be the fastest.
+
+sort3 uses: Selection Sort
+sort3 (ran50k): 3.914
+sort3 (ran10k): 0.189
+sort3 (rank5k): 0.069
+sort3 (rev50k): 3.783
+sort3 (rev10k): 0.184
+sort3 (rev5k): 0.087
+sort3 (s50k): 3.643
+sort3 (s10k): 0.103
+sort3 (s5k): 0.070
+How do you know?:
+Selection sort usually outperforms bubble sort. As sort 3 had the second fastest times, sort 3 is selection sort.
