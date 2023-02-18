@@ -1,0 +1,6 @@
+# Excludes output folders
+*.txt
+*.bmp
+*.jpg
+*.wav
+*.mp3
